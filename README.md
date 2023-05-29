@@ -12,4 +12,4 @@ this dashboard can assist you in staying on top of your responsibilities.
 
 ##### Task Management: Create, update, and track tasks seamlessly. Assign tasks to team members, set due dates, and prioritize them based on urgency.
 
-##### ******User Management: Manage user accounts and access permissions. Add new users, assign roles, and control their access to specific features and data.******
+##### User Management: Manage user accounts and access permissions. Add new users, assign roles, and control their access to specific features and data.
