@@ -8,7 +8,7 @@ workflow and enhance productivity. Whether you're a project manager, team lead, 
 this dashboard can assist you in staying on top of your responsibilities.
 
 
-#### Features
+### Features
 
 ###### Task Management: Create, update, and track tasks seamlessly. Assign tasks to team members, set due dates, and prioritize them based on urgency.
 
