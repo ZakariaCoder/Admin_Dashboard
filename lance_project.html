@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AGPFE |Admin Dashboard</title>
+    <!-- Rendering All Elements Normally -->
+    <link rel="stylesheet" href="./assets/style/normalizer.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS File Template -->
+    <link rel="stylesheet" href="assets/style/admindashboard.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="./index.html" class="logo">
+                        <span class="logosvg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                <path fill="currentColor"
+                                    d="M3.33 8L10 12l10-6l-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3l-2-1.2v-6l7 4.2l7-4.2v6L10 20z" />
+                            </svg>
+                        </span>
+                        <span class="title logo_title">AGPFE</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./index.html">
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M6 19h3v-6h6v6h3v-9l-6-4.5L6 10v9Zm0 2q-.825 0-1.413-.588T4 19v-9q0-.475.213-.9t.587-.7l6-4.5q.275-.2.575-.3T12 3.5q.325 0 .625.1t.575.3l6 4.5q.375.275.588.7T20 10v9q0 .825-.588 1.413T18 21h-5v-6h-2v6H6Zm6-8.75Z" />
+                            </svg>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./user_management.html">
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M12 5a3.5 3.5 0 0 0-3.5 3.5A3.5 3.5 0 0 0 12 12a3.5 3.5 0 0 0 3.5-3.5A3.5 3.5 0 0 0 12 5m0 2a1.5 1.5 0 0 1 1.5 1.5A1.5 1.5 0 0 1 12 10a1.5 1.5 0 0 1-1.5-1.5A1.5 1.5 0 0 1 12 7M5.5 8A2.5 2.5 0 0 0 3 10.5c0 .94.53 1.75 1.29 2.18c.36.2.77.32 1.21.32c.44 0 .85-.12 1.21-.32c.37-.21.68-.51.91-.87A5.42 5.42 0 0 1 6.5 8.5v-.28c-.3-.14-.64-.22-1-.22m13 0c-.36 0-.7.08-1 .22v.28c0 1.2-.39 2.36-1.12 3.31c.12.19.25.34.4.49a2.482 2.482 0 0 0 1.72.7c.44 0 .85-.12 1.21-.32c.76-.43 1.29-1.24 1.29-2.18A2.5 2.5 0 0 0 18.5 8M12 14c-2.34 0-7 1.17-7 3.5V19h14v-1.5c0-2.33-4.66-3.5-7-3.5m-7.29.55C2.78 14.78 0 15.76 0 17.5V19h3v-1.93c0-1.01.69-1.85 1.71-2.52m14.58 0c1.02.67 1.71 1.51 1.71 2.52V19h3v-1.5c0-1.74-2.78-2.72-4.71-2.95M12 16c1.53 0 3.24.5 4.23 1H7.77c.99-.5 2.7-1 4.23-1Z" />
+                            </svg>
+                        </span>
+                        <span class="title">Gestion Des Utilisateurs</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./lance_project.html">
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 256 256">
+                                <path fill="currentColor"
+                                    d="M92 144v-16a4 4 0 0 1 8 0v16a4 4 0 0 1-8 0Zm36 4a4 4 0 0 0 4-4v-24a4 4 0 0 0-8 0v24a4 4 0 0 0 4 4Zm32 0a4 4 0 0 0 4-4v-32a4 4 0 0 0-8 0v32a4 4 0 0 0 4 4Zm52-72v104h12a4 4 0 0 1 0 8h-92v24.4a20 20 0 1 1-8 0V188H32a4 4 0 0 1 0-8h12V76h-4a12 12 0 0 1-12-12V48a12 12 0 0 1 12-12h176a12 12 0 0 1 12 12v16a12 12 0 0 1-12 12Zm-84 144a12 12 0 1 0 12 12a12 12 0 0 0-12-12ZM40 68h176a4 4 0 0 0 4-4V48a4 4 0 0 0-4-4H40a4 4 0 0 0-4 4v16a4 4 0 0 0 4 4Zm164 8H52v104h152Z" />
+                            </svg>
+                        </span>
+                        <span class="title">Attribution Projets</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./lance_date.html">
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 36 36">
+                                <path fill="currentColor"
+                                    d="M32.25 6H29v2h3v22H4V8h3V6H3.75A1.78 1.78 0 0 0 2 7.81v22.38A1.78 1.78 0 0 0 3.75 32h28.5A1.78 1.78 0 0 0 34 30.19V7.81A1.78 1.78 0 0 0 32.25 6Z"
+                                    class="clr-i-outline clr-i-outline-path-1" />
+                                <path fill="currentColor" d="M8 14h2v2H8z" class="clr-i-outline clr-i-outline-path-2" />
+                                <path fill="currentColor" d="M14 14h2v2h-2z"
+                                    class="clr-i-outline clr-i-outline-path-3" />
+                                <path fill="currentColor" d="M20 14h2v2h-2z"
+                                    class="clr-i-outline clr-i-outline-path-4" />
+                                <path fill="currentColor" d="M26 14h2v2h-2z"
+                                    class="clr-i-outline clr-i-outline-path-5" />
+                                <path fill="currentColor" d="M8 19h2v2H8z" class="clr-i-outline clr-i-outline-path-6" />
+                                <path fill="currentColor" d="M14 19h2v2h-2z"
+                                    class="clr-i-outline clr-i-outline-path-7" />
+                                <path fill="currentColor" d="M20 19h2v2h-2z"
+                                    class="clr-i-outline clr-i-outline-path-8" />
+                                <path fill="currentColor" d="M26 19h2v2h-2z"
+                                    class="clr-i-outline clr-i-outline-path-9" />
+                                <path fill="currentColor" d="M8 24h2v2H8z"
+                                    class="clr-i-outline clr-i-outline-path-10" />
+                                <path fill="currentColor" d="M14 24h2v2h-2z"
+                                    class="clr-i-outline clr-i-outline-path-11" />
+                                <path fill="currentColor" d="M20 24h2v2h-2z"
+                                    class="clr-i-outline clr-i-outline-path-12" />
+                                <path fill="currentColor" d="M26 24h2v2h-2z"
+                                    class="clr-i-outline clr-i-outline-path-13" />
+                                <path fill="currentColor" d="M10 10a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z"
+                                    class="clr-i-outline clr-i-outline-path-14" />
+                                <path fill="currentColor" d="M26 10a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z"
+                                    class="clr-i-outline clr-i-outline-path-15" />
+                                <path fill="currentColor" d="M13 6h10v2H13z"
+                                    class="clr-i-outline clr-i-outline-path-16" />
+                                <path fill="none" d="M0 0h36v36H0z" />
+                            </svg>
+                        </span>
+                        <span class="title">Lance Date</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M16 17v-3H9v-4h7V7l5 5l-5 5M14 2a2 2 0 0 1 2 2v2h-2V4H5v16h9v-2h2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9Z" />
+                            </svg>
+                        </span>
+                        <span class="title">Se Déconnecter</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="project_lancer_container">
+                <div class="ldt_main_heading">
+                    <h2>Lancer Les Projects</h2>
+                    <p>Si vous avez une idée de projet de fin d'études (PFE), veuillez utiliser le formulaire ci-dessous pour soumettre
+                        votre proposition. Fournissez le nom du projet, une brève description et le nom du superviseur de projet
+                        (Encadrant). Une fois que vous aurez rempli tous les champs obligatoires, cliquez sur le bouton "Ajouter la
+                        proposition" pour soumettre votre proposition.
+                    </p>
+                </div>
+                <div class="project_form_container">
+                    <form class="project_form">
+                        <label class="label_prjct" for="project-name">Nom du Projet <span class="required-field">*</span>:</label>
+                        <input type="text" id="project-name" name="project-name" class="main-input-prj" placeholder="Entrez le nom du projet"
+                            required>
+                    
+                        <label class="label_prjct" for="project-description">Description du Projet <span class="required-field">*</span>:</label>
+                        <textarea id="project-description" name="project-description" class="main-input-prj"
+                            placeholder="Entrez une brève description du projet" required></textarea>
+                    
+                        <label class="label_prjct" for="project-supervisor">Superviseur de Projet (Encadrant) <span class="required-field">*</span>:</label>
+                        <input type="text" id="project-supervisor" name="project-supervisor" class="main-input-prj"
+                            placeholder="Entrez le nom du superviseur de projet" required>
+                    
+                        <input type="submit" value="Ajouter la proposition">
+                    </form>
+                </div>
+                <label class="remarq remarq_two">"Remarque: Les champs marqués d'un astérisque (<span class="required-field">*</span>) sont
+                    facultatifs."</label>
+            </div>
+            <!-- Footer Start -->
+            <div class="footer">
+                <p class="footer-parag">
+                    <placeholder data-i18n="footer">Tous Droits Réservés</placeholder> &copy;
+                    <a href="#" class="footer-link">AGPFE</a>
+                    <span class="this-year"></span>
+                </p>
+            </div>
+            <!-- Footer End -->
+
+        </div><!-- div lli ky sd main -->
+    </div><!-- div lli ky sd container -->
+
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
